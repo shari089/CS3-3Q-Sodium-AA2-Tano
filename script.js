@@ -13,6 +13,5 @@ function finalPopulation() {
 	let nameOfMonster = prompt("Input the name of the monster: ");
 	let monster = (regionOfMonster.concat(' ').concat(nameOfMonster)).toUpperCase();
 	
-	document.getElementById('result').innerHTML = ('After' + ' ' + floatTimeInHours + ' ' + 'hours' + ' ' + 'the population of' + ' ' + monster + ' ' + 'has risen to' + ' ' + finalPopulation + '!');
-			
+	document.getElementById('result').innerHTML = ('After' + ' ' + floatTimeInHours + ' ' + 'hours' + ' ' + 'the population of' + ' ' + monster + ' ' + 'has risen to' + ' ' + finalPopulation + '!');		
 }
